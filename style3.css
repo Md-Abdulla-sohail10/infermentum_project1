@@ -26,7 +26,11 @@
 
   
   }
-  .logo >img{
+  .ham{
+    height: 27px;
+    width: 27px;
+margin-top: -8px;}
+ .loim{
       height: 55px;
       width: 184px;
   
@@ -130,7 +134,7 @@ margin-top: 30px;
  text-align: center;
  position: relative;
   }
- .it1>button{
+.buttho{
     border-radius: 20px;
     height: 7vh;
     width: 50%;
@@ -159,6 +163,10 @@ transition: 2s ease-in-out;
     
    
   
+}
+.cart{
+    height: 27px;
+    width: 27px;   
 }
 .img2{
     height: 200px;
@@ -228,4 +236,59 @@ transition: 2s ease-in-out;
     .sign{
         display: flex;
         flex-direction: column;
+    }
+    .drmm{
+        position: relative;
+    }
+    
+    .drmain{
+        display: block;
+        padding: 10px;
+        transition:3s ease;
+    }
+    
+    .dropdown-content{
+        position: absolute;
+        top: 7%;
+    right:0%;
+    background-color:pink;
+    z-index: 1;
+    display: none;
+    width: 100vw ;
+    text-align: center;
+    height: 60vh;
+    transition: opacity 0.5s ease-in-out;
+    transform: scale(0);
+    text-decoration: none;
+    } 
+    
+    
+    .drmm:active ~ .dropdown-content, 
+    .drmm:focus ~ .dropdown-content,
+    .drmm:hover ~ .dropdown-content,
+    .dropdown-content:hover{
+        display: block; 
+        transform: scale(1);
+        transition: 2s ease-in-out;
+    }
+    .li1:hover{
+        border:1px solid #1B1B21; 
+        transition: 2s;
+    }
+    .cart:hover{
+        border:1px solid #1B1B21;
+        transition: 2s;
+    }
+    .ham:hover{
+        border:1px solid #1B1B21;
+        transition: 2s;
+    }
+    .ac:hover{
+        border:1px solid #1B1B21; 
+        transition: 2s;
+    }
+    .sign{
+        text-align: center;
+        font-size: 0.75rem;
+        margin-bottom: 5px;
     }

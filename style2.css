@@ -14,10 +14,9 @@
 
   
   }
-  .logo >img{
-      height: 55px;
-      width: 184px;
-  
+  .loim{
+    height: 55px;
+    width: 184px;
   }
   .logo{
       margin-left: 20px;
@@ -31,6 +30,11 @@
       height: 27px;
       width: 27px;
   }
+  .ham{
+    height: 27px;
+    width: 27px;
+margin-top: -8px;}
+
   .links> ul{
       list-style-type: none;
   display: flex;
@@ -105,6 +109,10 @@ background-color: transparent;
 margin-top: 10px;
 transition: 2s ease-in-out;
 }
+.cart{
+    height: 27px;
+    width: 27px;   
+}
  
  .it1>p{
     margin: 7px;
@@ -147,6 +155,7 @@ transition: 2s ease-in-out;
     .hoeff:hover {
         transform: scale(1.10);
         transition: 2s linear;
+        border:1px solid #1B1B21; 
     }
     .google{
         height: 20%;
@@ -185,4 +194,42 @@ transition: 2s ease-in-out;
         text-align: center;
         font-size: 0.75rem;
         margin-bottom: 5px;
+    }
+    .li1:hover{
+        border:1px solid #1B1B21; 
+        transition: 2s;
+    }
+    .drmm{
+        position: relative;
+    }
+    
+    .drmain{
+        display: block;
+        padding: 10px;
+        transition:3s ease;
+    }
+    
+    .dropdown-content{
+        position: absolute;
+        top: 7%;
+    right:0;
+    background-color:rgba(255, 228, 196, 0.89);
+    z-index: 1;
+    display: none;
+    width: 100vw ;
+    text-align: center;
+    height: 60vh;
+    transition: opacity 0.5s ease-in-out;
+    transform: scale(0);
+    text-decoration: none;
+    } 
+    
+    
+    .drmm:active ~ .dropdown-content, 
+    .drmm:focus ~ .dropdown-content,
+    .drmm:hover ~ .dropdown-content,
+    .dropdown-content:hover{
+        display: block; 
+        transform: scale(1);
+        transition: 2s ease-in-out;
     }
