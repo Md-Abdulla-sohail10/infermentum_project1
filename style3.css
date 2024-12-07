@@ -91,13 +91,14 @@ margin-top: -8px;}
   @media screen and (min-width:0px) and (max-width:768px){
     .hero>img{
         width: 100vw;
-        height: 40vh;
-        margin-bottom: 30vh;
+        height: 35vh;
+        margin-bottom: 20vh;
       }
       .hetro>img{
         width: 100vw;
-        height: 50vh;
-        margin-top: 20vh;
+        height: 40vh;
+        margin-top: 10vh;
+        margin-bottom: -7px;
       }
   }
   /* ***********product*************** */
@@ -232,10 +233,10 @@ transition: 2s ease-in-out;
     }
     .bpwhite{
         background-color: wheat;
+      
     }
     .sign{
         display: flex;
-        flex-direction: column;
     }
     .drmm{
         position: relative;
