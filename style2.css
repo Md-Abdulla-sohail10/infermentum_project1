@@ -107,7 +107,7 @@ margin-top: 30px;
     font-size: 1rem;
 background-color: transparent;
 margin-top: 10px;
-transition: 2s ease-in-out;
+transition: 0.5s ease-in-out;
 }
 .cart{
     height: 27px;
@@ -153,8 +153,8 @@ transition: 2s ease-in-out;
        transform: scale(1.05);
     }
     .hoeff:hover {
-        transform: scale(1.10);
-        transition: 2s linear;
+        transform: scale(1);
+        transition: 0.5s linear;
         border:1px solid #1B1B21; 
     }
     .google{
@@ -206,7 +206,7 @@ transition: 2s ease-in-out;
     .drmain{
         display: block;
         padding: 10px;
-        transition:3s ease;
+        transition:0.5s ease;
     }
     
     .dropdown-content{
@@ -231,5 +231,5 @@ transition: 2s ease-in-out;
     .dropdown-content:hover{
         display: block; 
         transform: scale(1);
-        transition: 2s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
