@@ -100,7 +100,16 @@ margin-top: -8px;}
         margin-top: 10vh;
         margin-bottom: -7px;
       }
-  }
+      .buttho:hover{
+        background-color: black;
+               color: white;
+              border-color: white;
+              transform: scale(1.05);
+        transition: 0s ease-in-out;
+        }
+
+      }
+  
   /* ***********product*************** */
   .pmiddle h1 ,p{
     text-align: center;

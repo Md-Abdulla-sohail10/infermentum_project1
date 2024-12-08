@@ -169,6 +169,14 @@ font-weight: 300;
     right: 35%;
     text-align: center;
 }
+.buttho:hover{
+    background-color: black;
+           color: white;
+          border-color: white;
+          transform: scale(1.05);
+    transition: 0s ease-in-out;
+    }
+
 }
 
 
