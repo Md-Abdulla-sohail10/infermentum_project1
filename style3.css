@@ -14,6 +14,7 @@
     background-attachment: fixed;
     transition: ease-in-out 1.5s;
     object-fit: cover;
+    background-attachment: fixed;
 }
   
   .nav{
@@ -111,6 +112,9 @@ margin-top: -8px;}
       }
   
   /* ***********product*************** */
+  .pmiddle{
+    margin-top: -24px;
+  }
   .pmiddle h1 ,p{
     text-align: center;
     
